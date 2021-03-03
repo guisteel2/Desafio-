@@ -1,0 +1,63 @@
+#body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content{
+  display: flex;
+  height: 100%;
+}
+
+/* O conteúdo deve ser centralizado no Desktop. */
+.DivCenter{
+  margin: auto;
+  overflow: auto;
+}
+
+/* A tabela ou lista criada exibição dos dados deve ser "zebrada" e ter 500px de largura. */
+.table{
+  width: 500px !important;
+}
+.t-centro{
+  text-align: center !important;
+}
+
+/* O links devem ter aparência de botão. */
+
+
+
+.AddP{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.AddP .form-group input{
+  text-align: center;
+  margin: auto;
+  width: 420px;
+}
+
+/* O conteúdo deve ser alinhado à esquerda no mobile/tablet ("quebrar" na largura de 768px). */
+@media only screen and (max-width: 768px) {
+
+  .DivCenter{
+    margin-left: 0px;
+  }
+
+  .AddP{
+    margin-left: 0px;
+    overflow: auto;
+  }
+
+}
+
+@media only screen and (max-width: 419px) {
+  .AddP .form-group input{width: auto;}
+
+
+@media only screen and (max-width: 260px) {
+  .table>a{
+      margin: auto !important;
+    }
+}
+
