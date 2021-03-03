@@ -14,8 +14,8 @@
 <main class="content">
 <div class="DivCenter">
   <div class="table">
-    <?php if($var == 'Deletado'){?>
-      <div class="alert alert-primary" role="alert">Pessoa Deletada com sucesso</div>
+    <?php if($_GET['delete'] == 'true'){?>
+      <div class="alert alert-primary" role="alert">Pessoa deletada com sucesso</div>
     <?php } ?> 
 
     <table class="table table-striped">
