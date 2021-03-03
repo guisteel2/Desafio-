@@ -29,7 +29,7 @@ class Pessoa
 
     public function deletar($id){
         if(ModelPessoa::excluir($id)){
-            header('Location: /index.php');
+            header('Location: /index.php?delete=true');
         }
         
     }
