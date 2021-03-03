@@ -11,7 +11,7 @@
 <main class="content">
     <div class="AddP">
         <?php if($var == 'Salvo'){?>
-            <div class="alert alert-primary" role="alert">Pessoa ssalvar com sucesso</div>
+            <div class="alert alert-primary" role="alert">Pessoa salvar com sucesso</div>
         <?php } ?> 
         
         <h1>Adicionar Nova Pessoa</h1>
